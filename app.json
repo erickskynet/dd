@@ -31,7 +31,14 @@
             "value": "63999z3s1iui9o3tf806b"
         }
     },
-    "buildpacks": [
-        {"url": "heroku/python"}
-    ]
+    "addons": [
+  ],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, {
+    "url": "https://github.com/verbit-ai/rtmpdump-buildpack.git"
+  }, {
+    "url": "heroku/python"
+  }
+ ]
 }
