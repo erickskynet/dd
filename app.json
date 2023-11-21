@@ -1,0 +1,37 @@
+{
+    "env": {
+        "BOT_TOKEN": {
+            "description": "",
+            "required": false,
+            "value": "2008994688:AAE-gsB-5an5oID_ZrREF1W06m7Cz_gYngY"
+        },
+        "API_ID": {
+            "description": "",
+            "required": false,
+            "value": "28155542"
+        },
+        "API_HASH": {
+            "description": "",
+            "required": false,
+            "value": "86f861352f0ab76a251866059a6adbd6"
+        },
+        "OWNER_ID": {
+            "description": "",
+            "required": false,
+            "value": "6288681216"
+        },
+        "BOT_USERNAME": {
+            "description": "",
+            "required": false,
+            "value": "Doodstreamingbot"
+        },
+        "DOODSTREAM_API": {
+            "description": "",
+            "required": false,
+            "value": "63999z3s1iui9o3tf806b"
+        }
+    },
+    "buildpacks": [
+        {"url": "heroku/python"}
+    ]
+}
