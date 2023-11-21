@@ -10,13 +10,13 @@ from dotenv import load_dotenv
 
 load_dotenv("config.env")
 
-BOT_USERNAME = getenv("BOT_USERNAME", "Doodstreamingbot")
-BOT_TOKEN = getenv("BOT_TOKEN", "2008994688:AAE-gsB-5an5oID_ZrREF1W06m7Cz_gYngY")
-API_ID = int(getenv("API_ID", "3910389"))
-API_HASH = getenv("API_HASH", "86f861352f0ab76a251866059a6adbd6")
-RESULTS_COUNT = getenv("RESULTS_COUNT", "10") # NOTE Number of results to show, 4 is better
-OWNER_ID = getenv("OWNER_ID", "1064471769,5958457159")
-DOODSTREAM_API = getenv("DOODSTREAM_API", "63999z3s1iui9o3tf806b")
+BOT_USERNAME = getenv("BOT_USERNAME", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
+RESULTS_COUNT = getenv("RESULTS_COUNT", "") # NOTE Number of results to show, 4 is better
+OWNER_ID = getenv("OWNER_ID", "")
+DOODSTREAM_API = getenv("DOODSTREAM_API", "")
 
 
 # TODO:
